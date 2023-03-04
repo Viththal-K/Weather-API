@@ -1,11 +1,11 @@
 Develop an application that extracts weather data from two different weather APIs -
-Accuweather API --> https://developer.accuweather.com/accuweather-locations-api/apis 
-Openweather API -->  https://openweathermap.org/api
+1. Accuweather API --> https://developer.accuweather.com/accuweather-locations-api/apis 
+2. Openweather API -->  https://openweathermap.org/api
 
 Utilized RESTful API to send HTTP requests to both APIs and extract the data needed.
 
 Library used -
-Requests --> python -m pip install requests
+- Requests --> python -m pip install requests
 
 Steps involved:
 1. Create accounts on Accuweather and Openweather
