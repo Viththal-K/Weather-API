@@ -1,15 +1,30 @@
-Develop an application that extracts weather data from two different weather APIs -
-1. Accuweather API --> https://developer.accuweather.com/accuweather-locations-api/apis 
-2. Openweather API -->  https://openweathermap.org/api
+# WeatherAPI
+This project is used to fetch the current weather conditions of a certain city. It is an application that extracts weather data from two different weather APIs.
 
-Utilized RESTful API to send HTTP requests to both APIs and extract the data needed.
+## Features
+* Utilizes RESTful API to send HTTP requests to both APIs and extract the data needed.
+* User can enter their desired city name to view the current weather condition in that city.
+* Used Requests library in python to make HTTP requests to the APIs.
+* Data is extracted from two different weather APIs for more accuracy.
 
-Library used -
-- Requests --> python -m pip install requests
+## Requirements
+* Python
+* Requests library
 
-Steps involved:
-1. Create accounts on Accuweather and Openweather
-2. Generate an API Key
-3. Install requests library
-4. Send GET request
-5. Receive data in JSON format
+## Usage
+Create account on Accuweather API and Openweather API
+```
+https://developer.accuweather.com/accuweather-locations-api/apis 
+```
+```
+https://openweathermap.org/api
+```
+Clone the repository and install the dependencies.
+```
+python -m pip install requests
+```
+Run the code
+```
+python weather_data.py
+```
+Enter the city name to view the current weather condition.
